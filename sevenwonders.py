@@ -18,7 +18,7 @@ class ResourceCategory(Enum):
     GOODS = auto()
 
 @dataclass(frozen=True)
-class Resource(Enum):
+class Resource:
     name: str
     category: ResourceCategory
 
